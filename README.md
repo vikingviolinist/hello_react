@@ -1,1 +1,1 @@
-React course from udemy.com
+React course from <a href="https://www.udemy.com/">udemy.com</a>
