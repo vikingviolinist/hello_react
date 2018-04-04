@@ -17,89 +17,10 @@
 
     <script type="text/babel">
 
-        // Friendly Complex Component
-        function FriendLy() {
-            var friendlyStyle = {
-                height: 300,
-                width: 200,
-                padding: 0,
-                backgroundColor: '#FFF',
-                WebkitFilter: 'drop-shadow(0px 0px 5px #555)',
-                filter: 'drop-shadow(0px 0px 5px #555)'
-            }
-            return(
-                <div style={friendlyStyle}>
-                    <Avatar/>
-                    <UserName/>
-                    <GetConnected/>
-                </div>
-            );
-        }
-
-        // Avatar Component
-        function Avatar() {
-            var avatarStyle = {
-                marginLeft: 20,
-                marginTop: 20,
-                width: 150,
-                height: 150,
-                borderRadius: '50%'
-            }
-            return(
-                <img src="https://avatars0.githubusercontent.com/u/34009955?s=460&v=4" alt="Profile image" style={avatarStyle} />
-            );
-        }
-
-        // UserName Component
-        function UserName() {
-            var nameStyle = {
-                fontSize: 24,
-                fontFamily: 'Arial, Helvetica, sans-serif',
-                margin: 20
-            }
-            return(
-                <h1 style={nameStyle}>Michal Petrik</h1>
-            );
-        }
-
-        // GetConnected Component
-        function GetConnected() {
-            return(
-                <div>
-                    <Like/>
-                    <Share/>
-                    <Add/>
-                </div>
-            );
-        }
-
-            var iconStyle = {
-                margin: 20
-            }
-
-            // Like Component
-            function Like() {
-                return(
-                    <i className="fa fa-thumbs-up" style={iconStyle}></i>
-                );
-            }
-
-            // Share Component
-            function Share() {
-                return(
-                    <i className="fa fa-share-alt" style={iconStyle}></i>
-                );
-            }
-
-            // Add Component
-            function Add() {
-                return(
-                    <i className="fa fa-user-plus" style={iconStyle}></i>
-                );
-            }
+    
 
         ReactDOM.render(
-            <FriendLy/>,
+            ,
             document.getElementById('app')
         );
 
